@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Mars Rover</title>
+</head>
+<body>
+  <div class="container">
+  <div class="jumbotron">
+    Mars Rover Photos
+  </div>
+  <div class="row">
+    <label for="rover-select">Select a rover</label>
+    <select id="rover-select">
+      <option value="curiosity" id="rover">Curiosity</option>
+      <option value="opportunity" id="rover">Opportunity</option>
+      <option value="spirit" id="rover">Spirit</option>
+    </select>
+    <label for="camera-select">Select a camera</label>
+    <select id="camera-select">
+      <option value="fhaz" id="camera">Front Hazard</option>
+      <option value="rhaz" id="camera">Rear Hazard</option>
+      <option value="mast" id="camera">Mast</option>
+      <option value="chemcam" id="camera">Chemistry/Complex</option>
+      <option value="mahli" id="camera">Mars Hand Lens Imager</option>
+      <option value="mardi" id="camera">Mars Descent Imager</option>
+      <option value="navcam" id="camera">Navigation</option>
+      <option value="pancam" id="camera">Panoramic</option>
+      <option value="minites" id="camera">Miniature Thermal Emission Spectrometer (Mini-TES)</option>
+    </select>
+  </div>
+  <div class="row">
+    <label for="date-input">Enter a Date</label>
+    <input type="date" id="date-input">
+  </div>
+  <button id="mars-button">button</button>
+  <div id="output"></div>
+
+  </div>
+</body>
+</html>
